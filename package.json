@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "bun build ./src/index.ts --compile --outfile spotify2csv",
+    "cli": "bun ./index.ts --"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
